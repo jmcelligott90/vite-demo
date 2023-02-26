@@ -37,14 +37,14 @@ const handleChange = event => {
         </a>
       </div> */}
       <h1>Sign Up</h1>
-      {/* <div className="card">
+      <div className="card">
         <CountButton count = {count} onClick={updateCount} />
         <Slider name='slider' value={values.slider || DEFAULT_SLIDER_VALUE} onChange={handleChange} />
         <Switch name="switch" value={values.switch || false} onChange={handleChange}/>
         <p>
           Slider: {values.slider || DEFAULT_SLIDER_VALUE}
         </p>
-      </div> */}
+      </div>
      
       <p>
         <Grid2 width={'500px'} container spacing={2}>
